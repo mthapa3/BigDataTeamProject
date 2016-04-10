@@ -5,12 +5,14 @@
 object MongoDBReviewsImport {
 
   def main(args: Array[String]) {
-    var arguments = new Array[String](5)
+    var arguments = new Array[String](7)
     arguments(0) = "--uri"
     arguments(1) = "mongodb://" + MongoFactory.SERVER + "/" + MongoFactory.DATABASE + "." + MongoFactory.REVIEWS_COLLECTION
     arguments(2) = "--file"
     arguments(3) = MongoFactory.REVIEWS_FILENAME
     arguments(4) = "--upsert"
+    arguments(5) = "--fileType"
+    arguments(6) = "reviews"
 
 
     val mongoimport = new MongoImport();

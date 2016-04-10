@@ -71,7 +71,7 @@ class MongoImport {
       case Some(fileName) => Source.fromFile(fileName)
     }
 
-   hideSLF4JWarnings()
+    hideSLF4JWarnings()
 
     // Get URI
     val mongoClientURI = MongoClientURI(options.uri.get)
@@ -92,14 +92,15 @@ class MongoImport {
       collection.drop()
     }
 
+
     // Import JSON in a future so we can output a spinner
-    val importer = future { importJson(collection, importSource, options) }
+        val importer = future { importJson(collection, importSource, options) }
 
-    if (!options.quiet) Console.err.print("Importing...")
-    loadingMessage(importer)
-    val total = currentTime - executionStart
-    if (!options.quiet) Console.err.println(s"Finished: $total ms")  }
-
+        if (!options.quiet) Console.err.print("Importing...")
+        loadingMessage(importer)
+        val total = currentTime - executionStart
+        if (!options.quiet) Console.err.println(s"Finished: $total ms")
+  }
   /**
     * Imports JSON into the collection
     *
@@ -127,37 +128,72 @@ class MongoImport {
             case true => collection.initializeOrderedBulkOperation
             case false => collection.initializeUnorderedBulkOperation
           }
+
+         val filtype =  options.filetype match {
+            case None => None
+            case Some(value) => value
+
+          }
           for (line <- batch) {
+
             val doc: MongoDBObject = JSON.parse(line).asInstanceOf[DBObject]
-            val check = doc filter {
-              case (k, v) => k == "reviewerID" || k == "asin" && v != ""
+
+            if (filtype equals("metadata")){
+              options.upsert match {
+                case false => builder.insert(doc)
+                case true =>
+                  val (query, update) = options.upsertFields match {
+                    case Some(value) =>
+                      val query = doc filter {
+                        case (k, v) => value contains k
+                      }
+                      val update = doc filter {
+                        case (k, v) => !(value contains k)
+                      }
+                      (query, update)
+                    case None =>
+                      val query = doc filter {
+                        case (k, v) =>  k == "asin"
+                      }
+                     val update = doc
+                      (query, update)
+                  }
+                  builder.find(query).upsert().replaceOne(update)
+              }
+            } else {
+              val check = doc filter {
+                case (k, v) => k == "reviewerID" || k == "asin" && v != ""
+              }
+
+              if (check.size > 1) {
+                options.upsert match {
+                  case false => builder.insert(doc)
+                  case true =>
+                    val (query, update) = options.upsertFields match {
+                      case Some(value) =>
+                        val query = doc filter {
+                          case (k, v) => value contains k
+                        }
+                        val update = doc filter {
+                          case (k, v) => !(value contains k)
+                        }
+                        (query, update)
+                      case None =>
+                        val query = doc filter {
+                          case (k, v) => k == "reviewerID" || k == "asin"
+                        }
+                        val update = doc filter {
+                          case (k, v) => k != "reviewerID" || k != "asin"
+                        }
+                        (query, update)
+                    }
+                    builder.find(query).upsert().replaceOne(update)
+                }
+              }
             }
 
-            if (check.size > 1) {
-            options.upsert match {
-              case false => builder.insert(doc)
-              case true =>
-                val (query, update) = options.upsertFields match {
-                  case Some(value) =>
-                    val query = doc filter {
-                      case (k, v) => value contains k
-                    }
-                    val update = doc filter {
-                      case (k, v) => !(value contains k)
-                    }
-                    (query, update)
-                  case None =>
-                    val query = doc filter {
-                      case (k, v) => k == "reviewerID" || k == "asin"
-                    }
-                    val update = doc filter {
-                      case (k, v) => k != "reviewerID" || k != "asin"
-                    }
-                    (query, update)
-                }
-                builder.find(query).upsert().replaceOne(update)
-            }
-          }
+
+
         }
           try builder.execute()
           catch {
@@ -200,6 +236,8 @@ class MongoImport {
         parseArguments(map ++ Map("stopOnError" -> true), tail)
       case "--jsonArray" :: tail =>
         parseArguments(map ++ Map("jsonArray" -> true), tail)
+      case "--fileType" :: value :: tail =>
+        parseArguments(map ++ Map("fileType" -> value), tail)
       case option :: tail =>
         Console.err.println("Unknown option " + option)
         Console.err.println(usage)
@@ -232,13 +270,17 @@ class MongoImport {
         case Some(value) => Some(value.asInstanceOf[List[String]])
       },
       stopOnError = optionMap.getOrElse("stopOnError", default.stopOnError).asInstanceOf[Boolean],
-      jsonArray = optionMap.getOrElse("jsonArray", default.jsonArray).asInstanceOf[Boolean]
+      jsonArray = optionMap.getOrElse("jsonArray", default.jsonArray).asInstanceOf[Boolean],
+      filetype = optionMap.get("fileType") match {
+        case None => default.filetype
+        case Some(value) => Some(value.asInstanceOf[String])
+      }
     )
   }
 
   case class Options(quiet: Boolean = false, uri: Option[String] = None, file: Option[String] = None,
                      drop: Boolean = false, upsert: Boolean = false, upsertFields: Option[List[String]] = None,
-                     stopOnError: Boolean = false, jsonArray: Boolean = false)
+                     stopOnError: Boolean = false, jsonArray: Boolean = false, filetype: Option[String] = None)
 
   private def currentTime = System.currentTimeMillis()
 

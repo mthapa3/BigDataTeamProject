@@ -1,6 +1,12 @@
 import json
 import gzip
 
+
+#####################################
+#
+# PROGRAM TO CREATE STRICT JSON FILES
+#
+#####################################
 def parse(path):
   g = gzip.open(path, 'r')
   for l in g:

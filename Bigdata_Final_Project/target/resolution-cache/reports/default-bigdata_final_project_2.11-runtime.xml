@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160407205637"/>
+		date="20160409234329"/>
 	<dependencies>
 		<module organisation="io.spray" name="spray-json_2.11">
 			<revision name="1.3.2" status="release" pubdate="20150506100100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
@@ -22,61 +22,61 @@
 			</revision>
 		</module>
 		<module organisation="org.mongodb" name="casbah_2.11">
-			<revision name="3.1.1" status="release" pubdate="20160301144101" resolver="jcenter" artresolver="jcenter" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+			<revision name="3.1.1" status="release" pubdate="20160301144101" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mongodb/casbah" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2306" time="390" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah_2.11/ivy-3.1.1.xml" searched="true" original-local-location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah_2.11/ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah_2.11/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom"/>
 				<caller organisation="default" name="bigdata_final_project_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
 				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.mongodb" name="casbah-gridfs_2.11">
-			<revision name="3.1.1" status="release" pubdate="20160301144113" resolver="jcenter" artresolver="jcenter" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+			<revision name="3.1.1" status="release" pubdate="20160301144113" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mongodb/casbah" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2002" time="374" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-gridfs_2.11/ivy-3.1.1.xml" searched="true" original-local-location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-gridfs_2.11/ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2807" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-gridfs_2.11/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom"/>
 				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<artifacts>
-					<artifact name="casbah-gridfs_2.11" type="jar" ext="jar" status="successful" details="" size="80738" time="602" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-gridfs_2.11/jars/casbah-gridfs_2.11-3.1.1.jar">
+					<artifact name="casbah-gridfs_2.11" type="jar" ext="jar" status="no" details="" size="80738" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-gridfs_2.11/jars/casbah-gridfs_2.11-3.1.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.mongodb" name="casbah-core_2.11">
-			<revision name="3.1.1" status="release" pubdate="20160301144103" resolver="jcenter" artresolver="jcenter" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+			<revision name="3.1.1" status="release" pubdate="20160301144103" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mongodb/casbah" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1965" time="456" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-core_2.11/ivy-3.1.1.xml" searched="true" original-local-location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-core_2.11/ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-core_2.11/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom"/>
 				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<caller organisation="org.mongodb" name="casbah-gridfs_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<artifacts>
-					<artifact name="casbah-core_2.11" type="jar" ext="jar" status="successful" details="" size="291875" time="1137" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-core_2.11/jars/casbah-core_2.11-3.1.1.jar">
+					<artifact name="casbah-core_2.11" type="jar" ext="jar" status="no" details="" size="291875" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-core_2.11/jars/casbah-core_2.11-3.1.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.mongodb" name="casbah-query_2.11">
-			<revision name="3.1.1" status="release" pubdate="20160301144105" resolver="jcenter" artresolver="jcenter" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+			<revision name="3.1.1" status="release" pubdate="20160301144105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mongodb/casbah" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1790" time="404" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-query_2.11/ivy-3.1.1.xml" searched="true" original-local-location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-query_2.11/ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2681" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-query_2.11/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom"/>
 				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<caller organisation="org.mongodb" name="casbah-core_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<artifacts>
-					<artifact name="casbah-query_2.11" type="jar" ext="jar" status="successful" details="" size="235588" time="899" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-query_2.11/jars/casbah-query_2.11-3.1.1.jar">
+					<artifact name="casbah-query_2.11" type="jar" ext="jar" status="no" details="" size="235588" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-query_2.11/jars/casbah-query_2.11-3.1.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.mongodb" name="casbah-commons_2.11">
-			<revision name="3.1.1" status="release" pubdate="20160301144102" resolver="jcenter" artresolver="jcenter" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+			<revision name="3.1.1" status="release" pubdate="20160301144102" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mongodb/casbah" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2976" time="394" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-commons_2.11/ivy-3.1.1.xml" searched="true" original-local-location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-commons_2.11/ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="3461" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-commons_2.11/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom"/>
 				<caller organisation="org.mongodb" name="casbah-query_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<caller organisation="org.mongodb" name="casbah-core_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<artifacts>
-					<artifact name="casbah-commons_2.11" type="jar" ext="jar" status="successful" details="" size="174850" time="609" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-commons_2.11/jars/casbah-commons_2.11-3.1.1.jar">
+					<artifact name="casbah-commons_2.11" type="jar" ext="jar" status="no" details="" size="174850" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/casbah-commons_2.11/jars/casbah-commons_2.11-3.1.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -94,12 +94,12 @@
 			</revision>
 		</module>
 		<module organisation="org.mongodb" name="mongo-java-driver">
-			<revision name="3.2.2" status="release" pubdate="20160215170337" resolver="jcenter" artresolver="jcenter" homepage="http://www.mongodb.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+			<revision name="3.2.2" status="release" pubdate="20160215170337" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2084" time="419" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-3.2.2.xml" searched="true" original-local-location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-3.2.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom"/>
+				<metadata-artifact status="no" details="" size="2992" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom"/>
 				<caller organisation="org.mongodb" name="casbah-commons_2.11" conf="compile, runtime" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="3.1.1"/>
 				<artifacts>
-					<artifact name="mongo-java-driver" type="jar" ext="jar" status="successful" details="" size="1484724" time="1133" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-3.2.2.jar">
+					<artifact name="mongo-java-driver" type="jar" ext="jar" status="no" details="" size="1484724" time="0" location="/Users/rachanrhegde/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-3.2.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar"/>
 					</artifact>
 				</artifacts>

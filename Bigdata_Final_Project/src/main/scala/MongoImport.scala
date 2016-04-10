@@ -43,6 +43,7 @@ class MongoImport {
 
   /**
     * The main export program
+    *
     * @param args the commandline arguments
     */
   def dataImport(args: Array[String]) {
@@ -128,6 +129,11 @@ class MongoImport {
           }
           for (line <- batch) {
             val doc: MongoDBObject = JSON.parse(line).asInstanceOf[DBObject]
+            val check = doc filter {
+              case (k, v) => k == "reviewerID" || k == "asin" && v != ""
+            }
+
+            if (check.size > 1) {
             options.upsert match {
               case false => builder.insert(doc)
               case true =>
@@ -152,6 +158,7 @@ class MongoImport {
                 builder.find(query).upsert().replaceOne(update)
             }
           }
+        }
           try builder.execute()
           catch {
             case be: BulkWriteException => for (e <- be.getWriteErrors) Console.err.println(e.getMessage)
@@ -202,6 +209,7 @@ class MongoImport {
 
   /**
     * Convert the optionMap to an Options instance
+    *
     * @param optionMap the parsed args options
     * @return Options instance
     */
@@ -235,23 +243,24 @@ class MongoImport {
   private def currentTime = System.currentTimeMillis()
 
   /**
-    * Hide SLF4J NOP stderr warnings
+    * Hide SLF4J  warnings
     */
   private def hideSLF4JWarnings() {
     val stderr = Console.err
     val err = new PrintStream(new ByteArrayOutputStream())
     System.setErr(err)
-    MongoClientURI("mongodb://localhost")
+    MongoClientURI("mongodb://"+MongoFactory.SERVER)
     System.setErr(stderr)
   }
 
   /**
     * Shows a loading in the console
+    *
     * @param someFuture the future we are all waiting for
     */
   private def loadingMessage(someFuture: Future[_]) {
     // Let the user know something is happening until futureOutput isCompleted
-    val spinChars = List("|", "/", "-", "\\")
+    val spinChars = List("*", "#")
     while (!someFuture.isCompleted) {
       spinChars.foreach({
         case char =>

@@ -4,7 +4,7 @@
 		module="bigdata_final_project_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160409234329"
+		publication="20160411132612"
 	>
 		<description>
 		Bigdata_Final_Project
@@ -27,9 +27,7 @@
 	</configurations>
 	<publications>
 		<artifact name="bigdata_final_project_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="bigdata_final_project_2.11" type="jar" ext="jar" conf="compile"/>
-		<artifact name="bigdata_final_project_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="bigdata_final_project_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="bigdata_final_project_2.11" type="jar" ext="jar" conf="optional" e:classifier="download"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>

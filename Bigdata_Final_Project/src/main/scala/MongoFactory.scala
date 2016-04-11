@@ -4,10 +4,10 @@
 object MongoFactory {
    val SERVER = "localhost"
    val PORT   = 27017
-   val DATABASE = "BigData_FinalProject"
-   val REVIEWS_COLLECTION = "reviews"
-   val METADATA_COLLECTION = "metadata"
-   val REVIEWS_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/test2000.json"
-   val METADATA_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/metatest2000.json"
+   val DATABASE = "AmazonReviews"
+   val REVIEWS_COLLECTION = "Reviews"
+   val METADATA_COLLECTION = "Metadata"
+   val REVIEWS_FILENAME= new java.io.File( "." ).getCanonicalPath+"/src/main/resources/data/test2000.json"
+   val METADATA_FILENAME= new java.io.File( "." ).getCanonicalPath+"/src/main/resources/data/metatest2000.json"
 }
 

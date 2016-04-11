@@ -248,7 +248,7 @@
 [info] Resolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-tools.sbinary#sbinary_2.10;0.4.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
-[debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in sbt-chain
+[debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in typesafe-ivy-releases
 [debug] == resolving dependencies org.scala-tools.sbinary#sbinary_2.10;0.4.2->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-tools.sbinary#sbinary_2.10;0.4.2->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-tools.sbinary#sbinary_2.10;0.4.2->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -292,7 +292,7 @@
 [info] Resolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f
-[debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f in sbt-chain
+[debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f in typesafe-ivy-releases
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.8->com.jcraft#jsch;0.1.46 [compile->default(compile)]
 [info] Resolving com.jcraft#jsch;0.1.46 ...
 [debug] sbt-chain: Checking cache for: dependency: com.jcraft#jsch;0.1.46 {compile=[default(compile)]}
@@ -331,9 +331,9 @@
 [debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.1
 [debug] 	found org.scalamacros#quasiquotes_2.10;2.0.1 in sbt-chain
 [debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->compile]
@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 681ms :: artifacts dl 37ms
-[debug] 	report for default#bigdata_final_project$sbt_2.11;1.0 default produced in /Users/rachanrhegde/IdeaProjects/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project$sbt_2.11-default.xml
-[debug] 	resolve done (681ms resolve - 37ms download)
+[debug] :: resolution report :: resolve 2266ms :: artifacts dl 148ms
+[debug] 	report for default#bigdata_final_project$sbt_2.11;1.0 default produced in C:\Users\Bala\Desktop\Scala\bigdata_finalproject\Bigdata_Final_Project\target\resolution-cache\reports\default-bigdata_final_project$sbt_2.11-default.xml
+[debug] 	resolve done (2266ms resolve - 148ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#bigdata_final_project$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -847,7 +847,7 @@
 [info] Resolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-tools.sbinary#sbinary_2.10;0.4.2 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
-[debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in sbt-chain
+[debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in typesafe-ivy-releases
 [debug] == resolving dependencies default#bigdata_final_project$sources_2.11;1.0->org.scala-sbt#compiler-ivy-integration;0.13.8 [default->default(compile)]
 [info] Resolving org.scala-sbt#compiler-ivy-integration;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-ivy-integration;0.13.8 {default=[default(compile)]}
@@ -867,7 +867,7 @@
 [info] Resolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f
-[debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f in sbt-chain
+[debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f in typesafe-ivy-releases
 [debug] == resolving dependencies default#bigdata_final_project$sources_2.11;1.0->com.jcraft#jsch;0.1.46 [default->default(compile)]
 [info] Resolving com.jcraft#jsch;0.1.46 ...
 [debug] sbt-chain: Checking cache for: dependency: com.jcraft#jsch;0.1.46 {default=[default(compile)]}
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 146ms :: artifacts dl 21ms
-[debug] 	report for default#bigdata_final_project$sources_2.11;1.0 default produced in /Users/rachanrhegde/IdeaProjects/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project$sources_2.11-default.xml
-[debug] 	resolve done (146ms resolve - 21ms download)
+[debug] :: resolution report :: resolve 316ms :: artifacts dl 83ms
+[debug] 	report for default#bigdata_final_project$sources_2.11;1.0 default produced in C:\Users\Bala\Desktop\Scala\bigdata_finalproject\Bigdata_Final_Project\target\resolution-cache\reports\default-bigdata_final_project$sources_2.11-default.xml
+[debug] 	resolve done (316ms resolve - 83ms download)

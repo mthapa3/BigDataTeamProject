@@ -10,7 +10,7 @@ object MongoDBReviewsImport {
     arguments(1) = "mongodb://" + MongoFactory.SERVER + "/" + MongoFactory.DATABASE + "." + MongoFactory.REVIEWS_COLLECTION
     arguments(2) = "--file"
     arguments(3) = MongoFactory.REVIEWS_FILENAME
-    arguments(4) = "--upsert"
+    arguments(4) = MongoFactory.UPSERT
     arguments(5) = "--fileType"
     arguments(6) = "reviews"
 

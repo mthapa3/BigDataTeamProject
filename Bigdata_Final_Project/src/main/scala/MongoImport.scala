@@ -218,6 +218,7 @@ class MongoImport {
   private def parseArguments(map: Map[String, Any], args: List[String]): Map[String, Any] = {
     args match {
       case Nil => map
+      case "" :: value :: tail => map
       case "--quiet" :: tail =>
         parseArguments(map ++ Map("quiet" -> true), tail)
       case "-u" :: value :: tail =>

@@ -1,13 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="942e9ce0-4eb7-4028-aaff-1418d7447bf3" name="Default" comment="">
+    <list default="true" id="7d7a2ef5-9120-4077-8df8-a77de352e161" name="Default" comment="code added/updated">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$483f391a8b551a59bd3e$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$483f391a8b551a59bd3e$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$483f391a8b551a59bd3e.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$297b7d7a9d1e3e183926$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$297b7d7a9d1e3e183926$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$297b7d7a9d1e3e183926.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4ac1ea94ed3f363f23da$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4ac1ea94ed3f363f23da$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4ac1ea94ed3f363f23da.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4ace1a415d9f81ddd7cf$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4ace1a415d9f81ddd7cf.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4ace1a415d9f81ddd7cf.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$7da952c0dade2f99761a$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$7da952c0dade2f99761a$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$7da952c0dade2f99761a.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$cefd6777e1bb57eeaf44$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$cefd6777e1bb57eeaf44$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$cefd6777e1bb57eeaf44.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$f9d93edf00067f0c1df7$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$f9d93edf00067f0c1df7$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$f9d93edf00067f0c1df7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$483f391a8b551a59bd3e.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$297b7d7a9d1e3e183926.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4ac1ea94ed3f363f23da.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$7da952c0dade2f99761a.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$cefd6777e1bb57eeaf44.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$f9d93edf00067f0c1df7.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/jeo_words.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/negative_words.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/positive_words.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/sat_iq_words.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/wine_words.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_spray_spray_json_2_11_1_3_2_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_2_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_6_0_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$f9ec692f15a26601a22b$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$f9ec692f15a26601a22b$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$f9ec692f15a26601a22b.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$19afe86b0bdfc018102d$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$19afe86b0bdfc018102d$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$19afe86b0bdfc018102d.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$209223983211af1caf82$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$209223983211af1caf82.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$2e249300bb4deece513e$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$2e249300bb4deece513e$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$2e249300bb4deece513e.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4cdbf74f3e38467ab93b$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4cdbf74f3e38467ab93b$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$4cdbf74f3e38467ab93b.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$75aec8c65fcea16adf87$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$75aec8c65fcea16adf87$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$75aec8c65fcea16adf87.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$86af960d673937a75250$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$86af960d673937a75250$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$86af960d673937a75250$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$86af960d673937a75250.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$8dc1161f2b68012708ae$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$8dc1161f2b68012708ae$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$8dc1161f2b68012708ae.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$afc8af6ebe7ec619415d$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$afc8af6ebe7ec619415d$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$afc8af6ebe7ec619415d$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$afc8af6ebe7ec619415d.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$c9aecf2c2f87cc13199e$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$c9aecf2c2f87cc13199e$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$c9aecf2c2f87cc13199e.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$d64a3289120e29924316$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$d64a3289120e29924316$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$d64a3289120e29924316.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sbt_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sbt_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sbt_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sbt_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project$sbt_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project$sbt_2.11-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project$sources_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project$sources_2.11-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.10-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/metatest2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/metatest2000.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/teststrict.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/strict_Json/read_gzip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/CheckCode.scala" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoDBMetaDataImport$.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoDBMetaDataImport$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoDBReviewsImport$.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoDBReviewsImport$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoFactory$.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoFactory$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoFactory.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$1.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$2.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$3.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$4.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$5.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$loadingMessage$1.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$loadingMessage$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$Options$.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$Options$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$Options.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$Options.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json/read_gzip.py" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json/read_gzip.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/.idea/modules/bigdata_final_project-build.iml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/.idea/modules/bigdata_final_project-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/.idea/modules/bigdata_final_project.iml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/.idea/modules/bigdata_final_project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/build.sbt" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-docs.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-optional.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-plugin.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-pom.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-provided.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-runtime.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-scala-tool.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-sources.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2000.json" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2000.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-docs.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-optional.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-plugin.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-pom.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-provided.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-runtime.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-sources.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/test2000.json" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/test2000.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigdata_finalproject.iml" afterPath="$PROJECT_DIR$/bigdata_finalproject.iml" />
     </list>
     <ignored path="bigdata_finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/Bigdata_Final_Project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +207,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/bigdata_finalproject$CheckCode.coverage" NAME="CheckCode Coverage Results" MODIFIED="1460569832348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -36,30 +230,69 @@
     <favorites_list name="bigdata_finalproject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MongoDBMetaDataImport.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBMetaDataImport.scala">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Liwc.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="28" />
+              <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+              <folding>
+                <element signature="e#31#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="176" selection-start-line="0" selection-start-column="176" selection-end-line="0" selection-end-column="176" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read_gzip.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json/read_gzip.py">
+      <file leaf-file-name="liwc2007.trie" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27586207">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="215" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="215" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReviewFeatureSetGenerator.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68765134">
+              <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,14 +305,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBReviewsImport.scala" />
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBMetaDataImport.scala" />
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/metatest1000.json" />
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/metatest2.json" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala" />
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/CheckCode.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/build.sbt" />
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json/read_gzip.py" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/FeatureSetGenerator.scala" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala" />
       </list>
     </option>
   </component>
@@ -113,6 +345,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,28 +419,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigdata_finalproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigdata_finalproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bigdata_Final_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -236,8 +449,34 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="strict_Json" />
+              <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bigdata_Final_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,12 +505,17 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,17 +524,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json" />
       <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data" />
+      <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MongoDBMetaDataImport">
+  <component name="RunManager" selected="Application.ReviewFeatureSetGenerator">
     <configuration default="false" name="MongoDBReviewsImport" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MongoDBReviewsImport" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -300,9 +544,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MongoDBMetaDataImport" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="ReviewFeatureSetGenerator" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MongoDBMetaDataImport" />
+      <option name="MAIN_CLASS_NAME" value="ReviewFeatureSetGenerator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -313,23 +557,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="bigdata_final_project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="read_gzip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bigdata_final_project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json/read_gzip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -755,21 +982,19 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.MongoDBReviewsImport" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MongoDBMetaDataImport" />
-      <item index="2" class="java.lang.String" itemvalue="Python.read_gzip" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReviewFeatureSetGenerator" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.MongoDBMetaDataImport" />
-        <item index="1" class="java.lang.String" itemvalue="Python.read_gzip" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MongoDBReviewsImport" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.ReviewFeatureSetGenerator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MongoDBReviewsImport" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1460259849437" />
+    <option name="lastUpdateTimestamp" value="1460594150544" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -799,30 +1024,33 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="942e9ce0-4eb7-4028-aaff-1418d7447bf3" name="Default" comment="" />
-      <created>1460259339944</created>
+      <changelist id="7d7a2ef5-9120-4077-8df8-a77de352e161" name="Default" comment="" />
+      <created>1460484901023</created>
       <option name="number" value="Default" />
-      <updated>1460259339944</updated>
+      <updated>1460484901023</updated>
     </task>
-    <task id="LOCAL-00001" summary="updated code with refactoring for wrangling unwanted data">
-      <created>1460261336072</created>
+    <task id="LOCAL-00001" summary="fixed absolute path issue">
+      <created>1460485542472</created>
       <option name="number" value="00001" />
       <option name="project" value="LOCAL" />
-      <updated>1460261336072</updated>
+      <updated>1460485542472</updated>
     </task>
-    <task id="LOCAL-00002" summary="updated code with refactoring for wrangling unwanted data">
-      <created>1460261354903</created>
+    <task id="LOCAL-00002" summary="liwc code">
+      <created>1460487515959</created>
       <option name="number" value="00002" />
       <option name="project" value="LOCAL" />
-      <updated>1460261354903</updated>
+      <updated>1460487515959</updated>
     </task>
-    <task id="LOCAL-00003" summary="updated code with refactoring for wrangling unwanted data">
-      <created>1460273513658</created>
+    <task id="LOCAL-00003" summary="liwc  trie">
+      <created>1460487541886</created>
       <option name="number" value="00003" />
       <option name="project" value="LOCAL" />
-      <updated>1460273513658</updated>
+      <updated>1460487541886</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -831,63 +1059,63 @@
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2952816" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2952816" sideWeight="0.503231" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39878234" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5981735" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24313408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39878234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated code with refactoring for wrangling unwanted data" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated code with refactoring for wrangling unwanted data" />
+    <MESSAGE value="fixed absolute path issue" />
+    <MESSAGE value="liwc code" />
+    <MESSAGE value="liwc  trie" />
+    <MESSAGE value="code added/updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="code added/updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala</url>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala</url>
-          <line>197</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-3.2.2-sources.jar!/com/mongodb/util/JSON.java</url>
-          <line>229</line>
-          <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -896,10 +1124,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/io/BufferedSource.scala">
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33242506">
-          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#31#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -907,7 +1153,91 @@
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBReviewsImport.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="27" />
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#31#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.641646">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBReviewsImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055690072">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/negative_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/jeo_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="113" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -920,102 +1250,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/metatest2000.json">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/Iterator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10948905">
-          <caret line="3" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="892" column="57" selection-start-line="892" selection-start-column="57" selection-end-line="892" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/metatest2.json">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-1.6.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0729927">
-          <caret line="2" column="498" selection-start-line="2" selection-start-column="498" selection-end-line="2" selection-end-column="498" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="911" column="52" selection-start-line="911" selection-start-column="52" selection-end-line="911" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-3.2.2-sources.jar!/com/mongodb/util/JSON.java">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-1.6.1-sources.jar!/org/apache/spark/SparkContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28045976">
-          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6539509">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2000.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
           <folding>
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#5083#5084#0" expanded="true" />
-            <element signature="e#5117#5118#0" expanded="true" />
+            <element signature="e#31#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala">
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="127" selection-start-line="10" selection-start-column="127" selection-end-line="10" selection-end-column="127" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="215" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="215" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala">
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/out/648193377/part-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-110.72458">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/out/-610151149/part-00002">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <caret line="0" column="176" selection-start-line="0" selection-start-column="176" selection-end-line="0" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68765134">
+          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
           <folding>
-            <element signature="e#30#81#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55172414">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda/envs/condapy/lib/python3.5/gzip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBMetaDataImport.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json/read_gzip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27586207">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>Python 3.5.1 (~/anaconda/envs/condapy/bin/python)</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

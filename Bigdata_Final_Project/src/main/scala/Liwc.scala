@@ -31,9 +31,9 @@ object Liwc {
   }
 
   // : Map[String, Int]
-  def apply(tokens: Seq[String]) = {
+  def apply(tokens: Seq[String], liwcWset:Map[String, Any]) = {
     // returns a map from categories to counts
-    val categories = tokens.map(_walk(_, 0, _trie))
+    val categories = tokens.map(_walk(_, 0, liwcWset))
     Map("Dic" -> categories.count(_.size > 0), "WC" -> tokens.size) ++
       categories.flatten.groupBy(identity).mapValues(_.size)
   }
@@ -49,7 +49,7 @@ object ScalaJson {
   }
 
   def fromFile[A](path: String): A = {
-    val raw = io.Source.fromFile(path).mkString
+    val raw = scala.io.Source.fromFile(path).mkString
     scalafy(json.JSON.parseFull(raw)).asInstanceOf[A]
 
   }

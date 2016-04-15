@@ -5,11 +5,13 @@
 
 import scala.Predef._
 import scala.util.parsing.json
+import scala.collection.mutable.Map
 object Liwc {
 
   val categories = List("funct", "pronoun", "ppron", "i", "we", "you", "shehe", "they", "ipron", "article", "verb", "auxverb", "past", "present", "future", "adverb", "preps", "conj", "negate", "quant", "number", "swear", "social", "family", "friend", "humans", "affect", "posemo", "negemo", "anx", "anger", "sad", "cogmech", "insight", "cause", "discrep", "tentat", "certain", "inhib", "incl", "excl", "percept", "see", "hear", "feel", "bio", "body", "health", "sexual", "ingest", "relativ", "motion", "space", "time", "work", "achieve", "leisure", "home", "money", "relig", "death", "assent", "nonfl", "filler")
   lazy val _trie = {
-    ScalaJson.fromFile[Map[String, Any]](new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie")
+    converters.DicToTrieConverter.convert(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/LIWC2007_English100131.dic")//{
+//    ScalaJson.fromFile[Map[String, Any]](new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie")
   }
 
   def _walk(token: String, index: Int, cursor: Map[String, Any]): List[String] = {
@@ -21,7 +23,7 @@ object Liwc {
       return cursor("$").asInstanceOf[List[String]]
     }
     else if (index < token.size) {
-      var letter = token(index).toString
+      val letter = token(index).toString
       if (cursor.contains(letter)) {
         val nextCursor = cursor(letter).asInstanceOf[Map[String, Any]]
         return _walk(token, index + 1, nextCursor)

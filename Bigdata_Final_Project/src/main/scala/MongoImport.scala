@@ -155,10 +155,15 @@ class MongoImport {
                       val query = doc filter {
                         case (k, v) =>  k == "asin"
                       }
-                     val update = doc
+                     val update = doc filter {
+                          case (k, v) => k != "asin"
+                        }
                       (query, update)
                   }
-                  builder.find(query).upsert().replaceOne(update)
+                  //builder.find(query).upsert().replaceOne(update)
+				  for(e <- update) {
+                    builder.find(query).updateOne($set(e._1 -> e._2))
+                  }
               }
             } else {
               val check = doc filter {
@@ -187,7 +192,10 @@ class MongoImport {
                         }
                         (query, update)
                     }
-                    builder.find(query).upsert().replaceOne(update)
+                    //builder.find(query).upsert().replaceOne(update)
+					for(e <- update) {
+                    builder.find(query).updateOne($set(e._1 -> e._2))
+                  }
                 }
               }
             }

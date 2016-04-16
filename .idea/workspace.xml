@@ -29,17 +29,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$7da952c0dade2f99761a.cache" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$cefd6777e1bb57eeaf44.cache" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/config-classes/$f9d93edf00067f0c1df7.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/jeo_words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/negative_words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/positive_words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/sat_iq_words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test5.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/wine_words.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_spray_spray_json_2_11_1_3_2_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_2_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_6_0_jar.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$f9ec692f15a26601a22b$$anonfun$$sbtdef$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$f9ec692f15a26601a22b$.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/project/target/config-classes/$f9ec692f15a26601a22b.class" afterPath="" />
@@ -80,8 +69,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sbt_2.11/1.0/resolved.xml.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.10/1.0/resolved.xml.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.10/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.11/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.11/1.0/resolved.xml.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.10/1.0/resolved.xml.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.10/1.0/resolved.xml.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project$sbt_2.10-default.xml" afterPath="" />
@@ -105,27 +92,23 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/metatest2000.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/teststrict.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/strict_Json/read_gzip.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/CheckCode.scala" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoDBMetaDataImport$.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoDBMetaDataImport$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoDBReviewsImport$.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoDBReviewsImport$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoFactory$.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoFactory$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoFactory.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$5.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$6.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$7.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$8.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$9.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2$$anonfun$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$3.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$MongoImport$$importJson$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$1.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$2.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$3.class" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/MongoImport$$anonfun$getOptions$3.class" />
@@ -139,11 +122,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/.idea/modules/bigdata_final_project-build.iml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/.idea/modules/bigdata_final_project-build.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/.idea/modules/bigdata_final_project.iml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/.idea/modules/bigdata_final_project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/build.sbt" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/build.sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile-internal.xml" />
@@ -171,8 +152,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/exportedProducts/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/fullClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2000.json" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2000.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test3.json" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test3.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project$sources_2.11/1.0/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile-internal.xml" />
@@ -189,11 +174,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/test2000.json" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/data/test2000.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/updateClassifiers/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigdata_finalproject.iml" afterPath="$PROJECT_DIR$/bigdata_finalproject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="bigdata_finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -231,44 +219,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MongoImport.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="206" column="17" selection-start-line="206" selection-start-column="17" selection-end-line="206" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Liwc.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding>
-                <element signature="e#31#52#0" expanded="true" />
+                <element signature="e#31#67#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="176" selection-start-line="0" selection-start-column="176" selection-end-line="0" selection-end-column="176" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="liwc2007.trie" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="215" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="215" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -276,10 +244,22 @@
       <file leaf-file-name="ReviewFeatureSetGenerator.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68765134">
-              <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.61271673">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertToJson.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ConvertToJson.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <marker date="1460777554000" expanded="true" signature="0:824" placeholder="/.../" />
               </folding>
             </state>
           </provider>
@@ -305,20 +285,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/CheckCode.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/build.sbt" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/FeatureSetGenerator.scala" />
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test3.json" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ConvertToJson.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -347,7 +329,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -446,7 +427,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Liwc.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bigdata_Final_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strict_Json" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,50 +492,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigdata_finalproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigdata_finalproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bigdata_Final_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -994,7 +977,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1460594150544" />
+    <option name="lastUpdateTimestamp" value="1460756437055" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1052,32 +1035,38 @@
       <option name="project" value="LOCAL" />
       <updated>1460487541886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code added/updated">
+      <created>1460659252906</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1460659252906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5981735" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22521247" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24313408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24313408" sideWeight="0.7879342" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39878234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24313408" sideWeight="0.21206582" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1110,12 +1099,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala</url>
-          <line>25</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/io/Source.scala</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/io/File.java</url>
+          <line>275</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1124,12 +1125,130 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="176" selection-start-line="0" selection-start-column="176" selection-end-line="0" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="215" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="215" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="189" column="55" selection-start-line="189" selection-start-column="55" selection-end-line="189" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBMetaDataImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ConvertToJson.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBReviewsImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding>
+            <element signature="e#31#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="176" selection-start-line="0" selection-start-column="176" selection-end-line="0" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="215" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="215" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#31#52#0" expanded="true" />
+            <element signature="e#31#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1181,7 +1300,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
           <folding>
-            <element signature="e#31#52#0" expanded="true" />
+            <element signature="e#31#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1194,27 +1313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.641646">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBReviewsImport.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055690072">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/negative_words.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,23 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="113" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="892" column="57" selection-start-line="892" selection-start-column="57" selection-end-line="892" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,7 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="911" column="52" selection-start-line="911" selection-start-column="52" selection-end-line="911" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,7 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6539509">
           <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,17 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-          <folding>
-            <element signature="e#31#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1300,31 +1370,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/out/648193377/part-00000">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-3.2.2-sources.jar!/com/mongodb/BulkUpdateRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-110.72458">
+        <state vertical-scroll-proportion="0.57847536">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48387095">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBMetaDataImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="60" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="119" selection-start-line="10" selection-start-column="119" selection-end-line="10" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoDBReviewsImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22670025">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/io/Source.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28323698">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <element signature="e#552#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25433525">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/out/1688988901/part-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/out/-610151149/part-00002">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/test2.json">
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/MongoImport.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="176" selection-start-line="0" selection-start-column="176" selection-end-line="0" selection-end-column="176" />
+          <caret line="206" column="17" selection-start-line="206" selection-start-column="17" selection-end-line="206" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Liwc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="e#31#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ConvertToJson.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1460777554000" expanded="true" signature="0:824" placeholder="/.../" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/ReviewFeatureSetGenerator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68765134">
-          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.61271673">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>

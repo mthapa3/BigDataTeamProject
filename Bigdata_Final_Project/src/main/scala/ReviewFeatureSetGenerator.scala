@@ -27,7 +27,7 @@ object ReviewFeatureSetGenerator {
     Logger.getRootLogger().setLevel(Level.ERROR)
 
     val sqlContext = new SQLContext(sc)
-    val fulldfs:org.apache.spark.sql.DataFrame = sqlContext.read.json(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/test2000.json")
+    val fulldfs:org.apache.spark.sql.DataFrame = sqlContext.read.json(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/test5.json")
 
     val df = fulldfs.select("asin","reviewerID","reviewText","overall")
 
@@ -37,7 +37,7 @@ object ReviewFeatureSetGenerator {
     wineList = sc.broadcast(sc.textFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/wine_words.txt").zipWithIndex().collect())
     jeoList = sc.broadcast(sc.textFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/jeo_words.txt").zipWithIndex().collect())
     val _trie = {
-      ScalaJson.fromFile[Map[String, Any]](new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie")
+      ScalaJson.fromFile[Map[String, Any]](new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie",sc)
     }
     // println("LIWC-WordSet =>"+_trie)
     liwcList = sc.broadcast(_trie)
@@ -50,7 +50,7 @@ object ReviewFeatureSetGenerator {
     val records = df.map(generateRecord)
 
 
-    //records.foreach(println)
+    records.foreach(println)
 
     records.saveAsTextFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/out/"+ new Random().nextInt())
     println("Done")

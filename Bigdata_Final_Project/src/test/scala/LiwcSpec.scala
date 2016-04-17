@@ -94,7 +94,6 @@ class LiwcSpec extends FlatSpec with Matchers{
     val text = "I'm loving it"
     val testReview = text.split(" ").flatMap(line => line.split("[\\s]")).map(word => reg.replaceAllIn(word.trim.toLowerCase, "")).filter(word => !word.isEmpty)
     val counts = Liwc.apply(testReview,_trie)
-    print(counts)
     //contains all the categories as 'I Hate It' except negative ones
     Assertions.assert(counts("funct")==2)
     Assertions.assert(counts("present")==1)
@@ -118,4 +117,13 @@ class LiwcSpec extends FlatSpec with Matchers{
     }
 
   }
+
+  it should "works for reviews with quotes and #" in {
+    val text = "I'm loving it #loveit"
+    val testReview = text.split(" ").flatMap(line => line.split("[\\s]")).map(word => reg.replaceAllIn(word.trim.toLowerCase, "")).filter(word => !word.isEmpty)
+    val counts = Liwc.apply(testReview,_trie)
+    Assertions.assert(counts("WC")==4)
+  }
+
+
 }

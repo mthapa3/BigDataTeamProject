@@ -89,4 +89,33 @@ class LiwcSpec extends FlatSpec with Matchers{
     }
 
   }
+
+  it should "works for reviews with quotes " in {
+    val text = "I'm loving it"
+    val testReview = text.split(" ").flatMap(line => line.split("[\\s]")).map(word => reg.replaceAllIn(word.trim.toLowerCase, "")).filter(word => !word.isEmpty)
+    val counts = Liwc.apply(testReview,_trie)
+    print(counts)
+    //contains all the categories as 'I Hate It' except negative ones
+    Assertions.assert(counts("funct")==2)
+    Assertions.assert(counts("present")==1)
+    Assertions.assert(counts("affect")==1)
+    Assertions.assert(counts("pronoun")==2)
+    Assertions.assert(counts("i")==1)
+    Assertions.assert(counts("ipron")==1)
+    Assertions.assert(counts("ppron")==1)
+    Assertions.assert(counts("verb")==1)
+    try {
+      Assertions.assert(counts("negemo")==1)
+    }catch{
+      case e: NoSuchElementException => Assertions.assert(true)
+      case _ => Assertions.assert(false)
+    }
+    try {
+      Assertions.assert(counts("anger") == 1)
+    }catch{
+      case e: NoSuchElementException => Assertions.assert(true)
+      case _ => Assertions.assert(false)
+    }
+
+  }
 }

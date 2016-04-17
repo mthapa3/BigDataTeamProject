@@ -10,5 +10,7 @@ object MongoFactory {
    val METADATA_COLLECTION = "Metadata"
    val REVIEWS_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/test3.json"
    val METADATA_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/metatest2000.json"
+   val REVIEWS_FEATURES_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/test2.txt"
+
 }
 

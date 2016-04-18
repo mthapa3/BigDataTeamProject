@@ -1,7 +1,6 @@
-import org.apache.spark.broadcast.Broadcast
-import org.apache.spark.sql.SQLContext
-import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.log4j.{Level, Logger}
+import org.apache.spark.sql.SQLContext
+import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.util.Random
 
@@ -22,27 +21,27 @@ object ReviewFeatureSetGenerator {
   @volatile private var categoriesList:org.apache.spark.broadcast.Broadcast[scala.collection.immutable.Set[String]] = null
 
   def main(args: Array[String]) {
-    val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
+    val conf = new SparkConf().setAppName(Properties.APP_NAME).setMaster(Properties.MASTER)
     val sc = new SparkContext(conf)
     Logger.getRootLogger().setLevel(Level.ERROR)
 
     val sqlContext = new SQLContext(sc)
-    val fulldfs:org.apache.spark.sql.DataFrame = sqlContext.read.json(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/test5.json")
+    val fulldfs:org.apache.spark.sql.DataFrame = sqlContext.read.json(Properties.REVIEWS_TEST_5_PATH)
 
-    val df = fulldfs.select("asin","reviewerID","reviewText","overall")
+    val df = fulldfs.select(Properties.ASIN,Properties.REVIEWER_ID,Properties.REVIEW_TEXT,Properties.OVERALL)
 
-    positiveList = sc.broadcast(sc.textFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/positive_words.txt").zipWithIndex().collect())
-    negativeList = sc.broadcast(sc.textFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/negative_words.txt").zipWithIndex().collect())
-    satiqList = sc.broadcast(sc.textFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/sat_iq_words.txt").zipWithIndex().collect())
-    wineList = sc.broadcast(sc.textFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/wine_words.txt").zipWithIndex().collect())
-    jeoList = sc.broadcast(sc.textFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/jeo_words.txt").zipWithIndex().collect())
+    positiveList = sc.broadcast(sc.textFile(Properties.POSITIVE_WORDS_PATH).zipWithIndex().collect())
+    negativeList = sc.broadcast(sc.textFile(Properties.NEGATIVE_WORDS_PATH).zipWithIndex().collect())
+    satiqList = sc.broadcast(sc.textFile(Properties.SAT_IQ_WORDS_PATH).zipWithIndex().collect())
+    wineList = sc.broadcast(sc.textFile(Properties.WINE_WORDS_PATH).zipWithIndex().collect())
+    jeoList = sc.broadcast(sc.textFile(Properties.JEO_WORDS_PATH).zipWithIndex().collect())
     val _trie = {
-      ScalaJson.fromFile[Map[String, Any]](new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie",sc)
+      ScalaJson.fromFile[Map[String, Any]](Properties.LIWC_TRIE_2007_PATH,sc)
     }
     // println("LIWC-WordSet =>"+_trie)
     liwcList = sc.broadcast(_trie)
 
-    val categories = List("funct", "pronoun", "ppron", "i", "we", "you", "shehe","they", "ipron", "article", "verb", "auxverb", "past", "present", "future","adverb", "preps", "conj", "negate", "quant", "number", "swear", "social","family", "friend", "humans", "affect", "posemo", "negemo", "anx", "anger","sad", "cogmech", "insight", "cause", "discrep", "tentat", "certain","inhib", "incl", "excl", "percept", "see", "hear", "feel", "bio", "body","health", "sexual", "ingest", "relativ", "motion", "space", "time", "work","achieve", "leisure", "home", "money", "relig", "death", "assent", "nonfl","filler")
+    val categories = Properties.CATEGORIES
      categoriesList = sc.broadcast(Set(categories: _*))
 
 
@@ -52,7 +51,7 @@ object ReviewFeatureSetGenerator {
 
     records.foreach(println)
 
-    records.saveAsTextFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/out/"+ new Random().nextInt())
+    records.saveAsTextFile(Properties.DATA_OUT_PATH+ new Random().nextInt())
     println("Done")
   }
 

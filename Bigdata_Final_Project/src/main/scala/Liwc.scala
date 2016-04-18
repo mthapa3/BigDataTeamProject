@@ -9,31 +9,31 @@ import scala.Predef._
 import scala.util.parsing.json
 object Liwc {
 
-  val categories = List("funct", "pronoun", "ppron", "i", "we", "you", "shehe", "they", "ipron", "article", "verb", "auxverb", "past", "present", "future", "adverb", "preps", "conj", "negate", "quant", "number", "swear", "social", "family", "friend", "humans", "affect", "posemo", "negemo", "anx", "anger", "sad", "cogmech", "insight", "cause", "discrep", "tentat", "certain", "inhib", "incl", "excl", "percept", "see", "hear", "feel", "bio", "body", "health", "sexual", "ingest", "relativ", "motion", "space", "time", "work", "achieve", "leisure", "home", "money", "relig", "death", "assent", "nonfl", "filler")
+  val categories = Properties.CATEGORIES
 
   def _walk(token: String, index: Int, cursor: Map[String, Any]): List[String] = {
     if (cursor.contains("*")) {
       // assert cursor("*") = List[String]
       return cursor("*").asInstanceOf[List[String]]
     }
-    else if (cursor.contains("$") && index == token.size) {
+    else if (cursor.contains("$") && index == token.length) {
       return cursor("$").asInstanceOf[List[String]]
     }
-    else if (index < token.size) {
+    else if (index < token.length) {
       var letter = token(index).toString
       if (cursor.contains(letter)) {
         val nextCursor = cursor(letter).asInstanceOf[Map[String, Any]]
         return _walk(token, index + 1, nextCursor)
       }
     }
-    return List()
+    List()
   }
 
   // : Map[String, Int]
   def apply(tokens: Seq[String], liwcWset:Map[String, Any]) = {
     // returns a map from categories to counts
     val categories = tokens.map(_walk(_, 0, liwcWset))
-    Map("Dic" -> categories.count(_.size > 0), "WC" -> tokens.size) ++
+    Map("Dic" -> categories.count(_.nonEmpty), "WC" -> tokens.size) ++
       categories.flatten.groupBy(identity).mapValues(_.size)
   }
 

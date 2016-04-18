@@ -11,5 +11,6 @@ object MongoFactoryTest {
   val REVIEWS_FILENAME= new java.io.File( "." ).getCanonicalPath+"/src/test/resources/data/reviewstest2000.json"
   val REVIEWS_UPSERT_FILENAME= new java.io.File( "." ).getCanonicalPath+"/src/test/resources/data/reviewsupserttest.json"
   val METADATA_FILENAME= new java.io.File( "." ).getCanonicalPath+"/src/test/resources/data/metatest2000.json"
-  val METADATA_UPSERT_FILENAME= new java.io.File( "." ).getCanonicalPath+"/src/test/resources/data/metaupserttest.json"
+  val METADATA_UPSERT_FILENAME = new java.io.File( "." ).getCanonicalPath+"/src/test/resources/data/metaupserttest.json"
+  val REVIEWS_FEATURE_FILENAME = new java.io.File( "." ).getCanonicalPath+"/src/test/resources/data/testfeatureupdate"
 }

@@ -5,7 +5,7 @@
 object MongoDBMetaDataImport {
 
   def main(args: Array[String]) {
-    var arguments = new Array[String](7)
+    val arguments = new Array[String](7)
     arguments(0) = "--uri"
     arguments(1) = "mongodb://" + MongoFactory.SERVER + "/" + MongoFactory.DATABASE + "." + MongoFactory.METADATA_COLLECTION
     arguments(2) = "--file"

@@ -36,7 +36,7 @@ object FeatureUpdateToMongo {
 
     // Get URI
     val mongoClientURI = MongoClientURI(uri)
-    if (mongoClientURI.collection == None) {
+    if (mongoClientURI.collection.isEmpty) {
       Console.err.println(s"Missing collection name in the URI eg:  mongodb://<hostInformation>/<database>.<collection>[?options]")
       Console.err.println(s"Current URI: $mongoClientURI")
       sys.exit(1)
@@ -59,10 +59,10 @@ object FeatureUpdateToMongo {
       val builder = collection.initializeOrderedBulkOperation
 
       for (line <- batch){
-          var parts = line.toString.split(" ")
-          var mymap = scala.collection.mutable.Map[String,String]()
-          mymap("reviewerID") = parts(0).split("-")(0)
-          mymap("asin") = parts(0).split("-")(1)
+          val parts = line.toString.split(" ")
+          val mymap = scala.collection.mutable.Map[String,String]()
+          mymap(Properties.REVIEWER_ID) = parts(0).split("-")(0)
+          mymap(Properties.ASIN) = parts(0).split("-")(1)
           val mydata = parts.tail.reverse.tail
           mydata.foreach(stg => {
             val k = stg.split("""\|""")(0)
@@ -74,10 +74,10 @@ object FeatureUpdateToMongo {
         val doc: MongoDBObject =  new MongoDBObject(JSON.parse(json).asInstanceOf[DBObject])
         val (query, update) = {
           val query = doc filter {
-            case (k, v) =>  k == "reviewerID" || k == "asin"
+            case (k, v) =>  k == Properties.REVIEWER_ID || k == Properties.ASIN
           }
           val update = doc filter {
-            case (k, v) => k != "reviewerID" && k != "asin"
+            case (k, v) => k != Properties.REVIEWER_ID && k != Properties.ASIN
           }
           (query, update)
         }

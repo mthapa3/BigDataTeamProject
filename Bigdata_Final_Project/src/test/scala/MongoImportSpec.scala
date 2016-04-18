@@ -2,6 +2,7 @@
 import com.github.simplyscala.MongoEmbedDatabase
 import com.mongodb.casbah.Imports._
 import de.flapdoodle.embed.mongo.distribution.Version
+import mongodb.initialize.{MongoImport, MongoFactory}
 import org.scalatest.{BeforeAndAfter, FunSuite}
 
 import scala.io.{BufferedSource, Source}
@@ -9,7 +10,7 @@ import scala.io.{BufferedSource, Source}
 /**
   * Created by Malika on 4/9/16.
   */
-class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDatabase{
+class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDatabase {
 
   private val WAIT_TIME = 10000L
   private val mongoDBImport = new MongoImport()
@@ -50,7 +51,7 @@ class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDataba
     }
   }
 
-  test ("Should be able to import Json for Reviews") {
+  test("Should be able to import Json for Reviews") {
     withEmbedMongoFixture(MongoFactory.PORT, Version.V3_1_0) { mongodProps =>
       // sleep the thread to give the MongoDBEmbedded instance time to start up
       Thread.sleep(WAIT_TIME)
@@ -61,7 +62,7 @@ class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDataba
       assert(reviewsCollection.size == 2000)
     }
   }
-  test ("Should return correct results after importing Json for Reviews") {
+  test("Should return correct results after importing Json for Reviews") {
     withEmbedMongoFixture(MongoFactory.PORT, Version.V3_1_0) { mongodProps =>
       Thread.sleep(WAIT_TIME)
       val importSource: BufferedSource = Source.fromFile(MongoFactoryTest.REVIEWS_FILENAME)
@@ -70,12 +71,12 @@ class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDataba
       reviewsCollection.drop()
       assert(reviewsCollection.size == 0)
       mongoDBImport.importJson(reviewsCollection, importSource, options)
-      val size = reviewsCollection.find(MongoDBObject("reviewerID" ->"A3JSAGWSLY5044")).size
+      val size = reviewsCollection.find(MongoDBObject("reviewerID" -> "A3JSAGWSLY5044")).size
       assert(size == 1)
     }
   }
 
-  test ("Should fail for incorrect request after importing Json for Metadata") {
+  test("Should fail for incorrect request after importing Json for Metadata") {
     withEmbedMongoFixture(MongoFactory.PORT, Version.V3_1_0) { mongodProps =>
       Thread.sleep(WAIT_TIME)
       val importSource: BufferedSource = Source.fromFile(MongoFactoryTest.METADATA_FILENAME)
@@ -84,12 +85,12 @@ class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDataba
       metaCollection.drop()
       assert(metaCollection.size == 0)
       mongoDBImport.importJson(metaCollection, importSource, options)
-      val size = metaCollection.find(MongoDBObject("reviewerID" ->"A3JSAGWSLY5044")).size
+      val size = metaCollection.find(MongoDBObject("reviewerID" -> "A3JSAGWSLY5044")).size
       assert(size == 0)
     }
   }
 
-  test ("Should return correct results after importing Json for Metadata") {
+  test("Should return correct results after importing Json for Metadata") {
     withEmbedMongoFixture(MongoFactory.PORT, Version.V3_1_0) { mongodProps =>
       Thread.sleep(WAIT_TIME)
       val importSource: BufferedSource = Source.fromFile(MongoFactoryTest.METADATA_FILENAME)
@@ -98,12 +99,12 @@ class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDataba
       metaCollection.drop()
       assert(metaCollection.size == 0)
       mongoDBImport.importJson(metaCollection, importSource, options)
-      val size = metaCollection.find(MongoDBObject("asin" ->"0594017343")).size
+      val size = metaCollection.find(MongoDBObject("asin" -> "0594017343")).size
       assert(size == 1)
     }
   }
 
-  test ("Should fail for incorrect request after importing Json for  Reviews") {
+  test("Should fail for incorrect request after importing Json for  Reviews") {
     withEmbedMongoFixture(MongoFactory.PORT, Version.V3_1_0) { mongodProps =>
       Thread.sleep(WAIT_TIME)
       val importSource: BufferedSource = Source.fromFile(MongoFactoryTest.REVIEWS_FILENAME)
@@ -112,12 +113,12 @@ class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDataba
       reviewsCollection.drop()
       assert(reviewsCollection.size == 0)
       mongoDBImport.importJson(reviewsCollection, importSource, options)
-      val size = reviewsCollection.find(MongoDBObject("imUrl" ->"http://ecx.images-amazon.com/images/I/21YJXPCzBXL._SY300_.jpg")).size
+      val size = reviewsCollection.find(MongoDBObject("imUrl" -> "http://ecx.images-amazon.com/images/I/21YJXPCzBXL._SY300_.jpg")).size
       assert(size == 0)
     }
   }
 
-  test ("Should be able to --upsert for Reviews") {
+  test("Should be able to --upsert for Reviews") {
     withEmbedMongoFixture(MongoFactory.PORT, Version.V3_1_0) { mongodProps =>
       Thread.sleep(WAIT_TIME)
       val argumentsU = new Array[String](7)
@@ -136,21 +137,21 @@ class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDataba
       assert(reviewsCollection.size == 0)
       mongoDBImport.importJson(reviewsCollection, importSource, options)
       assert(reviewsCollection.size == 2000)
-      val sizeR = reviewsCollection.find(MongoDBObject("reviewerID"->"A3JSAGWSLY5044","reviewerName" ->"Norma Cullen")).size
+      val sizeR = reviewsCollection.find(MongoDBObject("reviewerID" -> "A3JSAGWSLY5044", "reviewerName" -> "Norma Cullen")).size
       assert(sizeR == 1)
       val importSourceU: BufferedSource = Source.fromFile(MongoFactoryTest.REVIEWS_UPSERT_FILENAME)
       val optionMapU = mongoDBImport.parseArguments(Map(), argumentsU.toList)
       val optionsU = mongoDBImport.getOptions(optionMapU)
       mongoDBImport.importJson(reviewsCollection, importSourceU, optionsU)
       assert(reviewsCollection.size == 2000)
-      val sizeU = reviewsCollection.find(MongoDBObject("reviewerID"->"A3JSAGWSLY5044","reviewerName" ->"Malika Thapa")).size
-      val sizeRU = reviewsCollection.find(MongoDBObject("reviewerID"->"A3JSAGWSLY5044","reviewerName" ->"Norma Cullen")).size
+      val sizeU = reviewsCollection.find(MongoDBObject("reviewerID" -> "A3JSAGWSLY5044", "reviewerName" -> "Malika Thapa")).size
+      val sizeRU = reviewsCollection.find(MongoDBObject("reviewerID" -> "A3JSAGWSLY5044", "reviewerName" -> "Norma Cullen")).size
       assert(sizeU == 1)
       assert(sizeRU == 0)
     }
   }
 
-  test ("Should be able to --upsert for Metadata") {
+  test("Should be able to --upsert for Metadata") {
     withEmbedMongoFixture(MongoFactory.PORT, Version.V3_1_0) { mongodProps =>
       Thread.sleep(WAIT_TIME)
       val argumentsU = new Array[String](7)
@@ -169,15 +170,15 @@ class MongoImportSpec extends FunSuite with BeforeAndAfter with MongoEmbedDataba
       assert(metaCollection.size == 0)
       mongoDBImport.importJson(metaCollection, importSource, options)
       assert(metaCollection.size == 2000)
-      val sizeM = metaCollection.find(MongoDBObject("asin"-> "0594514789","imUrl" ->"http://ecx.images-amazon.com/images/I/21YJXPCzBXL._SY300_.jpg")).size
+      val sizeM = metaCollection.find(MongoDBObject("asin" -> "0594514789", "imUrl" -> "http://ecx.images-amazon.com/images/I/21YJXPCzBXL._SY300_.jpg")).size
       assert(sizeM == 1)
       val importSourceU: BufferedSource = Source.fromFile(MongoFactoryTest.METADATA_UPSERT_FILENAME)
       val optionMapU = mongoDBImport.parseArguments(Map(), argumentsU.toList)
       val optionsU = mongoDBImport.getOptions(optionMapU)
       mongoDBImport.importJson(metaCollection, importSourceU, optionsU)
       assert(metaCollection.size == 2000)
-      val sizeU = metaCollection.find(MongoDBObject("asin"-> "0594514789","imUrl" ->"MALIKA_THAPA_TEST.jpg")).size
-      val sizeMU = metaCollection.find(MongoDBObject("asin"-> "0594514789","imUrl" ->"http://ecx.images-amazon.com/images/I/21YJXPCzBXL._SY300_.jpg")).size
+      val sizeU = metaCollection.find(MongoDBObject("asin" -> "0594514789", "imUrl" -> "MALIKA_THAPA_TEST.jpg")).size
+      val sizeMU = metaCollection.find(MongoDBObject("asin" -> "0594514789", "imUrl" -> "http://ecx.images-amazon.com/images/I/21YJXPCzBXL._SY300_.jpg")).size
       assert(sizeU == 1)
       assert(sizeMU == 0)
     }

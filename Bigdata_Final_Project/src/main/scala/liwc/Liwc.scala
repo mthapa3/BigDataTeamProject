@@ -1,12 +1,12 @@
+package liwc
+
 
 /**
   * Created by rrh.
   */
 
-import org.apache.spark.SparkContext
-
 import scala.Predef._
-import scala.util.parsing.json
+
 object Liwc {
 
   val categories = Properties.CATEGORIES
@@ -20,7 +20,7 @@ object Liwc {
       return cursor("$").asInstanceOf[List[String]]
     }
     else if (index < token.length) {
-      var letter = token(index).toString
+      val letter = token(index).toString
       if (cursor.contains(letter)) {
         val nextCursor = cursor(letter).asInstanceOf[Map[String, Any]]
         return _walk(token, index + 1, nextCursor)
@@ -30,7 +30,7 @@ object Liwc {
   }
 
   // : Map[String, Int]
-  def apply(tokens: Seq[String], liwcWset:Map[String, Any]) = {
+  def apply(tokens: Seq[String], liwcWset: Map[String, Any]) = {
     // returns a map from categories to counts
     val categories = tokens.map(_walk(_, 0, liwcWset))
     Map("Dic" -> categories.count(_.nonEmpty), "WC" -> tokens.size) ++
@@ -39,17 +39,3 @@ object Liwc {
 
 }
 
-object ScalaJson {
-  def scalafy(entity: Any): Any = {
-    entity match {
-      case Some(x) => x
-      case None => "?"
-    }
-  }
-
-  def fromFile[A](path: String, sc:SparkContext): A = {
-    val raw =  sc.textFile(path).reduce(_+_)
-    scalafy(json.JSON.parseFull(raw)).asInstanceOf[A]
-
-  }
-}

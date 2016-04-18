@@ -1,3 +1,7 @@
+package featureSet
+
+import converters.ScalaJson
+import liwc.Liwc
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}

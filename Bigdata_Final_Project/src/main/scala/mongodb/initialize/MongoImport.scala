@@ -1,45 +1,48 @@
+package mongodb.initialize
+
 /**
   * Created by rrh.
   */
 
 import java.io.{ByteArrayOutputStream, PrintStream}
 
+import com.mongodb.casbah.Imports._
+import com.mongodb.util.JSON
+
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
 import scala.io.{BufferedSource, Source}
 
-import com.mongodb.casbah.Imports._
-import com.mongodb.util.JSON
-
 class MongoImport {
-  val usage = """
-                |Import JSON data into MongoDB using Casbah scala api
-                |
-                |When importing JSON documents, each document must be a separate line of the input file.
-                |
-                |Example:
-                |  mongoimport --uri mongodb://localhost/my_db.my_collection < mydocfile.json
-                |
-                |Options:
-                |  --help                                produce help message
-                |  --quiet                               silence all non error diagnostic
-                |                                        messages
-                |  -u [ --uri ] arg                      The connection URI - must contain a collection
-                |                                        mongodb://[username:password@]host1[:port1][,host2[:port2]]/database.collection[?options]
-                |                                        See: http://docs.mongodb.org/manual/reference/connection-string/
-                |  --file arg                            file to import from; if not specified
-                |                                        stdin is used
-                |  --drop                                drop collection first
-                |  --upsert                              insert or update objects that already
-                |                                        exist
-                |  --upsertFields arg                    comma-separated fields for the query
-                |                                        part of the upsert. You should make
-                |                                        sure this is indexed
-                |  --stopOnError                         stop importing at first error rather
-                |                                        than continuing
-                |  --jsonArray                           load a json array, not one item per
-                |                                        line. Currently limited to 16MB.
-              """
+  val usage =
+    """
+      |Import JSON data into MongoDB using Casbah scala api
+      |
+      |When importing JSON documents, each document must be a separate line of the input file.
+      |
+      |Example:
+      |  mongoimport --uri mongodb://localhost/my_db.my_collection < mydocfile.json
+      |
+      |Options:
+      |  --help                                produce help message
+      |  --quiet                               silence all non error diagnostic
+      |                                        messages
+      |  -u [ --uri ] arg                      The connection URI - must contain a collection
+      |                                        mongodb://[username:password@]host1[:port1][,host2[:port2]]/database.collection[?options]
+      |                                        See: http://docs.mongodb.org/manual/reference/connection-string/
+      |  --file arg                            file to import from; if not specified
+      |                                        stdin is used
+      |  --drop                                drop collection first
+      |  --upsert                              insert or update objects that already
+      |                                        exist
+      |  --upsertFields arg                    comma-separated fields for the query
+      |                                        part of the upsert. You should make
+      |                                        sure this is indexed
+      |  --stopOnError                         stop importing at first error rather
+      |                                        than continuing
+      |  --jsonArray                           load a json array, not one item per
+      |                                        line. Currently limited to 16MB.
+    """
 
   /**
     * The main export program
@@ -94,19 +97,22 @@ class MongoImport {
 
 
     // Import JSON in a future so we can output a spinner
-        val importer = future { importJson(collection, importSource, options) }
+    val importer = future {
+      importJson(collection, importSource, options)
+    }
 
-        if (!options.quiet) Console.err.print("Importing...")
-        loadingMessage(importer)
-        val total = currentTime - executionStart
-        if (!options.quiet) Console.err.println(s"Finished: $total ms")
+    if (!options.quiet) Console.err.print("Importing...")
+    loadingMessage(importer)
+    val total = currentTime - executionStart
+    if (!options.quiet) Console.err.println(s"Finished: $total ms")
   }
+
   /**
     * Imports JSON into the collection
     *
-    * @param collection the collection to import into
+    * @param collection   the collection to import into
     * @param importSource the data source
-    * @param options the configuration options
+    * @param options      the configuration options
     */
   def importJson(collection: MongoCollection, importSource: BufferedSource, options: Options) {
     options.jsonArray match {
@@ -129,7 +135,7 @@ class MongoImport {
             case false => collection.initializeUnorderedBulkOperation
           }
 
-         val filtype =  options.filetype match {
+          val filtype = options.filetype match {
             case None => None
             case Some(value) => value
 
@@ -138,7 +144,7 @@ class MongoImport {
 
             val doc: MongoDBObject = JSON.parse(line).asInstanceOf[DBObject]
 
-            if (filtype equals(Properties.METADATA)){
+            if (filtype equals Properties.METADATA) {
               options.upsert match {
                 case false => builder.insert(doc)
                 case true =>
@@ -153,15 +159,15 @@ class MongoImport {
                       (query, update)
                     case None =>
                       val query = doc filter {
-                        case (k, v) =>  k == Properties.ASIN
+                        case (k, v) => k == Properties.ASIN
                       }
-                     val update = doc filter {
-                          case (k, v) => k != Properties.ASIN
-                        }
+                      val update = doc filter {
+                        case (k, v) => k != Properties.ASIN
+                      }
                       (query, update)
                   }
                   //builder.find(query).upsert().replaceOne(update)
-				  for(e <- update) {
+                  for (e <- update) {
                     builder.find(query).updateOne($set(e._1 -> e._2))
                   }
               }
@@ -193,16 +199,15 @@ class MongoImport {
                         (query, update)
                     }
                     //builder.find(query).upsert().replaceOne(update)
-					for(e <- update) {
-                    builder.find(query).updateOne($set(e._1 -> e._2))
-                  }
+                    for (e <- update) {
+                      builder.find(query).updateOne($set(e._1 -> e._2))
+                    }
                 }
               }
             }
 
 
-
-        }
+          }
           try builder.execute()
           catch {
             case be: BulkWriteException => for (e <- be.getWriteErrors) Console.err.println(e.getMessage)
@@ -219,7 +224,7 @@ class MongoImport {
   /**
     * Recursively convert the args list into a Map of options
     *
-    * @param map - the initial option map
+    * @param map  - the initial option map
     * @param args - the args list
     * @return the parsed OptionMap
     */
@@ -300,7 +305,7 @@ class MongoImport {
     val stderr = Console.err
     val err = new PrintStream(new ByteArrayOutputStream())
     System.setErr(err)
-    MongoClientURI("mongodb://"+MongoFactory.SERVER)
+    MongoClientURI("mongodb://" + MongoFactory.SERVER)
     System.setErr(stderr)
   }
 

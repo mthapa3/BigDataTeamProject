@@ -16,7 +16,7 @@ class LiwcSpec extends FlatSpec with Matchers{
   //keep list of categories
   //val categories = List("funct", "pronoun", "ppron", "i", "we", "you", "shehe", "they", "ipron", "article", "verb", "auxverb", "past", "present", "future", "adverb", "preps", "conj", "negate", "quant", "number", "swear", "social", "family", "friend", "humans", "affect", "posemo", "negemo", "anx", "anger", "sad", "cogmech", "insight", "cause", "discrep", "tentat", "certain", "inhib", "incl", "excl", "percept", "see", "hear", "feel", "bio", "body", "health", "sexual", "ingest", "relativ", "motion", "space", "time", "work", "achieve", "leisure", "home", "money", "relig", "death", "assent", "nonfl", "filler")
   // load dictionary
-  val _trie = {ScalaJson.scalafy(json.JSON.parseFull(scala.io.Source.fromFile(new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie").mkString)).asInstanceOf[Map[String,Any]]
+  val _trie = {ScalaJson.scalafy(json.JSON.parseFull(scala.io.Source.fromFile(new java.io.File( "." ).getCanonicalPath+"/src/test/resources/data/liwc2007.trie").mkString)).asInstanceOf[Map[String,Any]]
   }
   val reg = "[,.:;'\"\\?\\-!\\(\\)]".r
 
@@ -62,7 +62,7 @@ class LiwcSpec extends FlatSpec with Matchers{
 
   }
 
-  it should "'I love it ' contains all the categories as 'I hate It' except negative ones" in {
+  it should "'contain all the categories as 'I hate It' except negative ones ;for review 'I love it' " in {
     val text = "I love it"
     val testReview = text.split(" ").flatMap(line => line.split("[\\s]")).map(word => reg.replaceAllIn(word.trim.toLowerCase, "")).filter(word => !word.isEmpty)
     val counts = Liwc.apply(testReview,_trie)
@@ -90,7 +90,7 @@ class LiwcSpec extends FlatSpec with Matchers{
 
   }
 
-  it should "works for reviews with quotes " in {
+  it should "work for reviews with quotes " in {
     val text = "I'm loving it"
     val testReview = text.split(" ").flatMap(line => line.split("[\\s]")).map(word => reg.replaceAllIn(word.trim.toLowerCase, "")).filter(word => !word.isEmpty)
     val counts = Liwc.apply(testReview,_trie)
@@ -118,12 +118,11 @@ class LiwcSpec extends FlatSpec with Matchers{
 
   }
 
-  it should "works for reviews with quotes and #" in {
+  it should "work for reviews with quotes and #" in {
     val text = "I'm loving it #loveit"
     val testReview = text.split(" ").flatMap(line => line.split("[\\s]")).map(word => reg.replaceAllIn(word.trim.toLowerCase, "")).filter(word => !word.isEmpty)
     val counts = Liwc.apply(testReview,_trie)
     Assertions.assert(counts("WC")==4)
   }
-
 
 }

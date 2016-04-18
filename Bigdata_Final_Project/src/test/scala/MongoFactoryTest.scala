@@ -8,6 +8,8 @@ object MongoFactoryTest {
   val UPSERT = ""
   val REVIEWS_COLLECTION = "Reviews"
   val METADATA_COLLECTION = "Metadata"
-  val REVIEWS_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/test/resources/data/test2000.json"
-  val METADATA_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/test/resources/data/teststrict.json"
+  val REVIEWS_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/test/resources/data/reviewstest2000.json"
+  val REVIEWS_UPSERT_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/test/resources/data/reviewsupserttest.json"
+  val METADATA_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/test/resources/data/metatest2000.json"
+  val METADATA_UPSERT_FILENAME= new java.io.File( "." ).getCanonicalPath+"/Bigdata_Final_Project/src/test/resources/data/metaupserttest.json"
 }

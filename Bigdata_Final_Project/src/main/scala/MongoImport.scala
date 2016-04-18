@@ -108,7 +108,7 @@ class MongoImport {
     * @param importSource the data source
     * @param options the configuration options
     */
-  private def importJson(collection: MongoCollection, importSource: BufferedSource, options: Options) {
+  def importJson(collection: MongoCollection, importSource: BufferedSource, options: Options) {
     options.jsonArray match {
       case true =>
         // Import all
@@ -223,10 +223,10 @@ class MongoImport {
     * @param args - the args list
     * @return the parsed OptionMap
     */
-  private def parseArguments(map: Map[String, Any], args: List[String]): Map[String, Any] = {
+  def parseArguments(map: Map[String, Any], args: List[String]): Map[String, Any] = {
     args match {
       case Nil => map
-      case "" :: value :: tail => map
+      case "" :: tail => parseArguments(map, tail)
       case "--quiet" :: tail =>
         parseArguments(map ++ Map("quiet" -> true), tail)
       case "-u" :: value :: tail =>
@@ -260,7 +260,7 @@ class MongoImport {
     * @param optionMap the parsed args options
     * @return Options instance
     */
-  private def getOptions(optionMap: Map[String, _]): Options = {
+  def getOptions(optionMap: Map[String, _]): Options = {
     val default = Options()
     Options(
       quiet = optionMap.getOrElse("quiet", default.quiet).asInstanceOf[Boolean],

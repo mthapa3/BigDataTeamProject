@@ -19,6 +19,7 @@ libraryDependencies ++= Seq(
   "org.mongodb" %% "casbah" % "3.1.1",
   "org.apache.spark" %% "spark-core" % "1.6.1",
   "org.apache.spark" % "spark-sql_2.11" % "1.6.1",
+  "com.google.code.gson" % "gson" % "2.3.1",
   "com.github.simplyscala" %% "scalatest-embedmongo" % "0.2.3-SNAPSHOT"
 )
 

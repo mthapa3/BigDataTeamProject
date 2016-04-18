@@ -60,6 +60,6 @@
 
 
     def main(args: Array[String]): Unit = {
-      println(DicToTrieConverter.convert(new java.io.File(".").getCanonicalPath + "/Bigdata_Final_Project/src/main/resources/data/test.dic"))
+      println(DicToTrieConverter.convert(Properties.LIWC_TRIE_2007_PATH))
     }
   }

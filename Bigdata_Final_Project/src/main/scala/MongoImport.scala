@@ -138,7 +138,7 @@ class MongoImport {
 
             val doc: MongoDBObject = JSON.parse(line).asInstanceOf[DBObject]
 
-            if (filtype equals("metadata")){
+            if (filtype equals(Properties.METADATA)){
               options.upsert match {
                 case false => builder.insert(doc)
                 case true =>
@@ -153,10 +153,10 @@ class MongoImport {
                       (query, update)
                     case None =>
                       val query = doc filter {
-                        case (k, v) =>  k == "asin"
+                        case (k, v) =>  k == Properties.ASIN
                       }
                      val update = doc filter {
-                          case (k, v) => k != "asin"
+                          case (k, v) => k != Properties.ASIN
                         }
                       (query, update)
                   }
@@ -167,7 +167,7 @@ class MongoImport {
               }
             } else {
               val check = doc filter {
-                case (k, v) => k == "reviewerID" || k == "asin" && v != ""
+                case (k, v) => k == Properties.REVIEWER_ID || k == Properties.ASIN && v != ""
               }
 
               if (check.size > 1) {
@@ -185,10 +185,10 @@ class MongoImport {
                         (query, update)
                       case None =>
                         val query = doc filter {
-                          case (k, v) => k == "reviewerID" || k == "asin"
+                          case (k, v) => k == Properties.REVIEWER_ID || k == Properties.ASIN
                         }
                         val update = doc filter {
-                          case (k, v) => k != "reviewerID" || k != "asin"
+                          case (k, v) => k != Properties.REVIEWER_ID || k != Properties.ASIN
                         }
                         (query, update)
                     }

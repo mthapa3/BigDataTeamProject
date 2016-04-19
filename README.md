@@ -42,20 +42,37 @@ If not run the below command :
 
 
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Dependencies required ###
 
-### Contribution guidelines ###
+* Scala Version - 2.11.8
+* casbah mongodb driver - 3.1.1
+* Apache Spark 1.6.1 installed/configured
+* sprak-core 1.6.1
+* spark-sql_2.11 1.6.1
+* com.google.code.gson 2.3.1
+* scalatest-embedmongo 0.2.3
+* Apache Zeppelin 0.55
+* Python 3+
 
-* Writing tests
-* Code review
-* Other guidelines
 
-### Who do I talk to? ###
+### Running Zeppelin notebooks ###
 
-* Repo owner or admin
-* Other community or team contact
+* Start Zepplin <Zepplin Home Dir>/bin/start-daemon.sh start
+* Import notebooks and run
+
+
+### To run unit test suite###
+* cd <Project Folder>
+* sbt clean
+* sbt compile
+* sbt test
+
+### To execute the program ###
+* sbt run
+* choose the appropriate module to run
+
+### Path for input files ###
+* Path for input files to the main modules can be modified in MongoFactory.scala and Properties.scala
+
+
+

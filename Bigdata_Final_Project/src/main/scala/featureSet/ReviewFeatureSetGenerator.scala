@@ -10,6 +10,10 @@ import scala.util.Random
 
 /**
   * Created by rrh on 4/10/16.
+  * var(mutable variables are used here to accomodate the BROADCAST variable
+  *notion used in Apache Spark)
+  *
+  *
   */
 
 

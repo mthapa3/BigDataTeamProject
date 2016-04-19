@@ -5,6 +5,18 @@ import scala.io.Source
 
 /**
   * Created by Malika on 4/10/16.
+  *
+  * #updated by Rachan
+  *
+  * Mutable maps are used here to create a hierarchical Trie structure
+  *
+  * As its a one time task module this was not designed with Functional Programming paradigm
+  *
+  * Which taked in .dic format file and provide a complex nested map output which can be used
+  *
+  * to traverse like a Trie (tree structure) to provide enchanced search performance.
+  *
+  *
   */
 
 object DicToTrieConverter {

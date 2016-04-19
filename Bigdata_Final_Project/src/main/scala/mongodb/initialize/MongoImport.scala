@@ -16,13 +16,6 @@ import scala.io.{BufferedSource, Source}
 class MongoImport {
   val usage =
     """
-      |Import JSON data into MongoDB using Casbah scala api
-      |
-      |When importing JSON documents, each document must be a separate line of the input file.
-      |
-      |Example:
-      |  mongoimport --uri mongodb://localhost/my_db.my_collection < mydocfile.json
-      |
       |Options:
       |  --help                                produce help message
       |  --quiet                               silence all non error diagnostic
@@ -45,7 +38,7 @@ class MongoImport {
     """
 
   /**
-    * The main export program
+    * The main data import program
     *
     * @param args the commandline arguments
     */
@@ -166,7 +159,6 @@ class MongoImport {
                       }
                       (query, update)
                   }
-                  //builder.find(query).upsert().replaceOne(update)
                   for (e <- update) {
                     builder.find(query).updateOne($set(e._1 -> e._2))
                   }
@@ -198,7 +190,6 @@ class MongoImport {
                         }
                         (query, update)
                     }
-                    //builder.find(query).upsert().replaceOne(update)
                     for (e <- update) {
                       builder.find(query).updateOne($set(e._1 -> e._2))
                     }

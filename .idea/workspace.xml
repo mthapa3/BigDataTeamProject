@@ -23,7 +23,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile-internal.xml" />
@@ -40,7 +39,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ML Regressoin/Zepplin-ML-PipeLine.json" afterPath="$PROJECT_DIR$/ML Regressoin/Zepplin-ML-PipeLine.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="bigdata_finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,11 +117,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zepplin-ML-PipeLine.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Zepplin-ML-PipeLine.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ML Regressoin/Zepplin-ML-PipeLine.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19354838">
+              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -178,9 +187,9 @@
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Properties.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/test/scala/MongoImportSpec.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/mongodb/initialize/MongoImport.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/featureSet/ReviewFeatureSetGenerator.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1200,7 +1209,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461087299471</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated typo's">
+      <created>1461111385564</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1461111385564</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1210,6 +1225,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02691218" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
@@ -1228,7 +1244,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5127479" sideWeight="0.4951535" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286119" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30878186" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1254,7 +1269,8 @@
     <MESSAGE value="code added/updated fixing unit test cases" />
     <MESSAGE value="Added pyhton scripts and README.md" />
     <MESSAGE value="Added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments" />
+    <MESSAGE value="updated typo's" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated typo's" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1567,13 +1583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4444447">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/scripts/DicToTrieConvertor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1631,14 +1640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.222222">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/featureSet/ReviewFeatureSetGenerator.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1651,6 +1652,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.222222">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19354838">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
           <folding />
         </state>
       </provider>

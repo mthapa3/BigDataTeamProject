@@ -2,13 +2,8 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+### Repository for Big Data Project###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
 --------
 MongoDB
 --------
@@ -47,7 +42,7 @@ If not run the below command :
 * Scala Version - 2.11.8
 * casbah mongodb driver - 3.1.1
 * Apache Spark 1.6.1 installed/configured
-* sprak-core 1.6.1
+* spark-core 1.6.1
 * spark-sql_2.11 1.6.1
 * com.google.code.gson 2.3.1
 * scalatest-embedmongo 0.2.3

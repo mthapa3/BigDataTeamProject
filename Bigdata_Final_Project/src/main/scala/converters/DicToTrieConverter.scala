@@ -12,9 +12,9 @@ import scala.io.Source
   *
   * As its a one time task module this was not designed with Functional Programming paradigm
   *
-  * Which taked in .dic format file and provide a complex nested map output which can be used
+  * Which takes in .dic format file and provide a complex nested map output which can be used
   *
-  * to traverse like a Trie (tree structure) to provide enchanced search performance.
+  * to traverse like a Trie (tree structure) to provide enhanced search performance.
   *
   *
   */

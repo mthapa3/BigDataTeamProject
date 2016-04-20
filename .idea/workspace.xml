@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d7a2ef5-9120-4077-8df8-a77de352e161" name="Default" comment="Added pyhton scripts and README.md">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/scripts/DicToTrieConvertor.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json/read_gzip.py" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/scripts/read_gzip.py" />
+    <list default="true" id="7d7a2ef5-9120-4077-8df8-a77de352e161" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/scala-2.11/classes/strict_Json/read_gzip.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/default/bigdata_final_project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-docs.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-optional.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-plugin.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-pom.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-provided.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-runtime.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-scala-tool.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-sources.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/resolution-cache/reports/default-bigdata_final_project-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/default/bigdata_final_project_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-docs.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-optional.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-plugin.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-pom.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-provided.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-runtime.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-sources.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test.xml" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/resolution-cache/reports/default-bigdata_final_project_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Bigdata_Final_Project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ML Regressoin/Zepplin-ML-PipeLine.json" afterPath="$PROJECT_DIR$/ML Regressoin/Zepplin-ML-PipeLine.json" />
     </list>
     <ignored path="bigdata_finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,28 +78,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.962963">
-              <caret line="22" column="51" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.4444447">
-              <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DicToTrieConvertor.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/scripts/DicToTrieConvertor.py">
+      <file leaf-file-name="LIWC2007_English100131.dic" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/LIWC2007_English100131.dic">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -73,21 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoImport.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/mongodb/initialize/MongoImport.scala">
+      <file leaf-file-name="liwc2007.trie" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Liwc.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/liwc/Liwc.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="0" column="215" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="215" />
               <folding />
             </state>
           </provider>
@@ -107,17 +112,27 @@
         <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/featureSet/ReviewFeatureSetGenerator.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="54" />
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoDBReviewsImport.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/mongodb/initialize/MongoDBReviewsImport.scala">
+      <file leaf-file-name="Zepplin-ML-PipeLine.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ML Regressoin/Zepplin-ML-PipeLine.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="31" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.222222">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -163,8 +178,9 @@
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/Properties.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/test/scala/MongoImportSpec.scala" />
         <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/mongodb/initialize/MongoImport.scala" />
-        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/featureSet/ReviewFeatureSetGenerator.scala" />
+        <option value="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala" />
       </list>
     </option>
   </component>
@@ -197,7 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,6 +229,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML Regressoin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,11 +484,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="converters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,10 +518,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigdata_finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bigdata_Final_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,14 +561,14 @@
     <property name="last_opened_file_path" value="$USER_HOME$/BigData_FinalProject/py2scala-master" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json" />
       <recent name="$PROJECT_DIR$/ML Regressoin" />
+      <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/strict_Json" />
       <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/out" />
       <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala" />
+      <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data" />
     </key>
   </component>
@@ -1034,7 +1094,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1460947360569" />
+    <option name="lastUpdateTimestamp" value="1461103049823" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1128,17 +1188,28 @@
       <option name="project" value="LOCAL" />
       <updated>1461035868311</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added pyhton scripts and README.md">
+      <created>1461077505949</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1461077505949</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added comments">
+      <created>1461087299471</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1461087299471</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286119" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02691218" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
@@ -1157,6 +1228,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5127479" sideWeight="0.4951535" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286119" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30878186" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1181,7 +1253,8 @@
     <MESSAGE value="code added/updated" />
     <MESSAGE value="code added/updated fixing unit test cases" />
     <MESSAGE value="Added pyhton scripts and README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pyhton scripts and README.md" />
+    <MESSAGE value="Added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1413,34 +1486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ML Regressoin/Zepplin-ML-PipeLine.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="215" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="215" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/test/scala/MongoFactoryTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/test/scala/LiwcSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1465,7 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2962084">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1503,27 +1551,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36098656">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
-          <folding>
-            <element signature="e#19#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.962963">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/mongodb/initialize/MongoDBReviewsImport.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.36098656">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="31" />
           <folding />
         </state>
@@ -1531,16 +1561,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/mongodb/initialize/MongoImport.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-1.6816144">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/liwc/Liwc.scala">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4444447">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/scripts/DicToTrieConvertor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/liwc/Liwc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5973451">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/test/scala/LiwcSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19911504">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/converters/DicToTrieConverter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39823008">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/LIWC2007_English100131.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/data/liwc2007.trie">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="215" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="215" />
           <folding />
         </state>
       </provider>
@@ -1553,23 +1631,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.222222">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/scala/featureSet/ReviewFeatureSetGenerator.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="54" />
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4444447">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bigdata_Final_Project/src/main/resources/scripts/DicToTrieConvertor.py">
+    <entry file="file://$PROJECT_DIR$/ML Regressoin/Zepplin-ML-PipeLine.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

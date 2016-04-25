@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mLiwcSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return correct word count for review with one word[0m[0m
+[0m[[0minfo[0m] [0m[32m- should give correct word categories for review with one word[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return correct word count for review with 'I hate it' words[0m[0m
+[0m[[0minfo[0m] [0m[32m- should give correct categories for review with 'I hate it'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should 'contain all the categories as 'I hate It' except negative ones ;for review 'I love it'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work for reviews with quotes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work for reviews with quotes and #[0m[0m

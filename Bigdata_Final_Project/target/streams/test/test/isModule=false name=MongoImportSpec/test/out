@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mMongoImportSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should be able to import Json for Metadata[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should be able to import Json for Reviews[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should return correct results after importing Json for Reviews[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should fail for incorrect request after importing Json for Metadata[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should return correct results after importing Json for Metadata[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should fail for incorrect request after importing Json for  Reviews[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should be able to --upsert for Reviews[0m[0m
+[0m[[0minfo[0m] [0m[32m- Should be able to --upsert for Metadata[0m[0m
